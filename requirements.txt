@@ -1,2 +1,2 @@
-bobo==2.3.0
-Jinja2==2.7.3
+bobo
+Jinja2

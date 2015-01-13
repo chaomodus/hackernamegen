@@ -1,0 +1,7 @@
+hackernamegen:
+  build: .
+  command: python main.py
+  ports:
+      - "8080:8080"
+  volumes:
+      - .:/hackernamegen
