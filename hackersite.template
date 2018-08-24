@@ -236,6 +236,11 @@
   border-color: #00ff00;
   border-width: 0 5px 5px 0;
   }
+
+  a.link,
+  a,
+  a:visited { color: #00ff00; font-decoration: underline; }
+
 </style>
 <script src="resources/prototype.js" type="text/javascript"></script>
 <script src="resources/scriptaculous.js" type="text/javascript"></script>
@@ -342,11 +347,11 @@ function getRandomIdentifer() {
   <h1>Operative Name Selector</h1>
   <p style="width: auto;">Please enter your S.I.N., serial number or a random value to obtain your operative identifier.</p>
   <p>&nbsp;</p>
-  <p>INPUT: <input type="text" id="govid" onkeydown="if (event.keyCode == 13) $('send').click();" style="width: 507"><input id="send" type="button" value="send" onclick="getidentifier();"><input id="random" type="button" value="random" onclick="getRandomIdentifer();"></p>
+  <p>INPUT: <input type="text" id="govid" onkeydown="if (event.keyCode == 13) $('send').click();" style="width: 507"><input id="send" type="button" value="send" onclick="getidentifier();"><input id="random" type="button" value="randomize" onclick="getRandomIdentifer();"></p>
   <p>&nbsp;</p>
   <p id="res" style="display: none">
     Selected Handle: <br>
-    <span id="output"></span>
+    [<span id="output" style="font-weight: bold"></span>]
   </p>
   <p id="congrats" style="display: none">
     Congratulations for choosing a new operative identifier. Please contact your handle for further instructions.
