@@ -223,7 +223,7 @@
 
   input {
   background: black;
-  color: green;
+  color: lime;
   -webkit-appearance: none;
   -moz-appearance: none;
   font-size: 48px;
@@ -349,7 +349,7 @@ function getRandomIdentifer() {
   <h1>Operative Name Selector</h1>
   <p style="width: auto;">Please enter your S.I.N., serial number or a random value to obtain your operative identifier.</p>
   <p>&nbsp;</p>
-  <p>INPUT: <input type="text" id="govid" onkeydown="if (event.keyCode == 13) $('send').click();" style="width: "><input id="send" type="button" value="send" onclick="getidentifier();"><input id="random" type="button" value="randomize" onclick="getRandomIdentifer();"></p>
+  <p class="bright">INPUT: <input type="text" id="govid" onkeydown="if (event.keyCode == 13) $('send').click();" style="width: "><input id="send" type="button" value="send" onclick="getidentifier();"><input id="random" type="button" value="randomize" onclick="getRandomIdentifer();"></p>
   <p>&nbsp;</p>
   <p id="res" style="display: none">
     Selected Handle: <br>
