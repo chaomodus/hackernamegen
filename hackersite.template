@@ -75,7 +75,7 @@
   // color separation
 @keyframes textShadow {
   0% {
-    text-shadow: 0.4389924193300864px 0 1px rgba(0,30,255,0.5), -0.4389924193300864px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+    text-shadow: 0.4389924193300848px 0 1px rgba(0,30,255,0.5), -0.4389924193300848px 0 1px rgba(255,0,80,0.3), 0 0 3px;
   }
   5% {
     text-shadow: 2.7928974010788217px 0 1px rgba(0,30,255,0.5), -2.7928974010788217px 0 1px rgba(255,0,80,0.3), 0 0 3px;
@@ -170,47 +170,47 @@
   }
 
   body {
-  margin-left: 64px;
-  margin-right: 64px;
+  margin-left: 48px;
+  margin-right: 48px;
   margin-top: 128px;
   background: black;
   color: #00ff00;
-  font-size: 32;
+  font-size: 48px;
   font-family: "PxPlus VGA SquarePx";
   padding: 1px;
   }
 
   h1 {
   font-size: 1em;
-  padding-top: 32px; padding-bottom: 32px;
-  line-height: 32px;
+  padding-top: 48px; padding-bottom: 48px;
+  line-height: 48px;
   margin: 0;
   padding: 1px;
   }
 
   h2 {
-  font-size: 32px;
-  padding-top: 32px; padding-bottom: 32px;
-  padding-left: 32px;
-  line-height: 32px;
+  font-size: 48px;
+  padding-top: 48px; padding-bottom: 48px;
+  padding-left: 48px;
+  line-height: 48px;
   margin: 0;
   padding: 1px;
   }
 
   h3 {
-  font-size: 32px;
-  padding-top: 32px; padding-bottom: 32px;
-  padding-left: 32px;
-  line-height: 32px;
+  font-size: 48px;
+  padding-top: 48px; padding-bottom: 48px;
+  padding-left: 48px;
+  line-height: 48px;
   margin: 0;
   padding: 1px;
   }
 
   h4 {
-  font-size: 32px;
-  padding-top: 32px; padding-bottom: 32px;
-  padding-left: 32px;
-  line-height: 32px;
+  font-size: 48px;
+  padding-top: 48px; padding-bottom: 48px;
+  padding-left: 48px;
+  line-height: 48px;
   margin: 0;
   padding: 1px;
   }
@@ -226,10 +226,10 @@
   color: #00ff00;
   -webkit-appearance: none;
   -moz-appearance: none;
-  font-size: 32px;
-  height: 32px;
-  margin: 0 0 32px 0;
-  padding: 1px 33px 1px 33px;
+  font-size: 48px;
+  height: 48px;
+  margin: 0 0 48px 0;
+  padding: 1px 49px 1px 49px;
   font-family: "PxPlus VGA SquarePx";
   border-style: solid;
   border: 0px 10px 0px 0px;
@@ -347,7 +347,7 @@ function getRandomIdentifer() {
   <h1>Operative Name Selector</h1>
   <p style="width: auto;">Please enter your S.I.N., serial number or a random value to obtain your operative identifier.</p>
   <p>&nbsp;</p>
-  <p>INPUT: <input type="text" id="govid" onkeydown="if (event.keyCode == 13) $('send').click();" style="width: 507"><input id="send" type="button" value="send" onclick="getidentifier();"><input id="random" type="button" value="randomize" onclick="getRandomIdentifer();"></p>
+  <p>INPUT: <input type="text" id="govid" onkeydown="if (event.keyCode == 13) $('send').click();" style="width: "><input id="send" type="button" value="send" onclick="getidentifier();"><input id="random" type="button" value="randomize" onclick="getRandomIdentifer();"></p>
   <p>&nbsp;</p>
   <p id="res" style="display: none">
     Selected Handle: <br>
