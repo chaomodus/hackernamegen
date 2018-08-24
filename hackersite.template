@@ -354,7 +354,7 @@ function getRandomIdentifer() {
     [<span id="output" style="font-weight: bold"></span>]
   </p>
   <p id="congrats" style="display: none">
-    Congratulations for choosing a new operative identifier. Please contact your handle for further instructions.
+    Congratulations for choosing a new operative identifier. Please contact your handler for further instructions.
   </p>
   <p id="urlpara" style="display: none">
     <a id="recoveryurl" href="">URL TO THIS</a>
