@@ -4,7 +4,7 @@
     <style>
   @font-face {
   font-family: "PxPlus VGA SquarePx";
-  src: url("PxPlus_VGA_SquarePx.woff2");
+  src: url("statics/PxPlus_VGA_SquarePx.woff2");
   }
 
       @keyframes flicker {
@@ -338,7 +338,7 @@ function getRandomIdentifer() {
 </script>
 </head>
 <body class="crt">
-  <img src="hlogo-pixel.png" style="float:right; width:256px; margin-left: 16px; margin-right: 16px; padding: 0; ">
+  <img src="statics/hlogo-pixel.png" style="float:right; width:256px; margin-left: 16px; margin-right: 16px; padding: 0; ">
   <h1>Operative Name Selector</h1>
   <p style="width: auto;">Please enter your S.I.N., serial number or a random value to obtain your operative identifier.</p>
   <p>&nbsp;</p>
