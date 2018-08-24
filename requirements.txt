@@ -1,2 +1,3 @@
 bobo
 Jinja2
+libnamegenerators

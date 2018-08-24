@@ -1,8 +1,242 @@
-<!DOCTYPE HTML>
-<html lang="en">
-<head>
-    <title>dataentrails :: operative identification selector</title>
-</head>
+<html>
+  <head>
+    <title>Test</title>
+    <style>
+  @font-face {
+  font-family: "PxPlus VGA SquarePx";
+  src: url("PxPlus_VGA_SquarePx.woff2");
+  }
+
+      @keyframes flicker {
+      0% {
+      opacity: 0.27861;
+  }
+  5% {
+    opacity: 0.34769;
+  }
+  10% {
+    opacity: 0.23604;
+  }
+  15% {
+    opacity: 0.90626;
+  }
+  20% {
+    opacity: 0.18128;
+  }
+  25% {
+    opacity: 0.83891;
+  }
+  30% {
+    opacity: 0.65583;
+  }
+  35% {
+    opacity: 0.67807;
+  }
+  40% {
+    opacity: 0.26559;
+  }
+  45% {
+    opacity: 0.84693;
+  }
+  50% {
+    opacity: 0.96019;
+  }
+  55% {
+    opacity: 0.08594;
+  }
+  60% {
+    opacity: 0.20313;
+  }
+  65% {
+    opacity: 0.71988;
+  }
+  70% {
+    opacity: 0.53455;
+  }
+  75% {
+    opacity: 0.37288;
+  }
+  80% {
+    opacity: 0.71428;
+  }
+  85% {
+    opacity: 0.70419;
+  }
+  90% {
+    opacity: 0.7003;
+  }
+  95% {
+    opacity: 0.36108;
+  }
+  100% {
+    opacity: 0.24387;
+  }
+  }
+  // color separation
+@keyframes textShadow {
+  0% {
+    text-shadow: 0.4389924193300864px 0 1px rgba(0,30,255,0.5), -0.4389924193300864px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  5% {
+    text-shadow: 2.7928974010788217px 0 1px rgba(0,30,255,0.5), -2.7928974010788217px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  10% {
+    text-shadow: 0.02956275843481219px 0 1px rgba(0,30,255,0.5), -0.02956275843481219px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  15% {
+    text-shadow: 0.40218538552878136px 0 1px rgba(0,30,255,0.5), -0.40218538552878136px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  20% {
+    text-shadow: 3.4794037899852017px 0 1px rgba(0,30,255,0.5), -3.4794037899852017px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  25% {
+    text-shadow: 1.6125630401149584px 0 1px rgba(0,30,255,0.5), -1.6125630401149584px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  30% {
+    text-shadow: 0.7015590085143956px 0 1px rgba(0,30,255,0.5), -0.7015590085143956px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  35% {
+    text-shadow: 3.896914047650351px 0 1px rgba(0,30,255,0.5), -3.896914047650351px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  40% {
+    text-shadow: 3.870905614848819px 0 1px rgba(0,30,255,0.5), -3.870905614848819px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  45% {
+    text-shadow: 2.231056963361899px 0 1px rgba(0,30,255,0.5), -2.231056963361899px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  50% {
+    text-shadow: 0.08084290417898504px 0 1px rgba(0,30,255,0.5), -0.08084290417898504px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  55% {
+    text-shadow: 2.3758461067427543px 0 1px rgba(0,30,255,0.5), -2.3758461067427543px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  60% {
+    text-shadow: 2.202193051050636px 0 1px rgba(0,30,255,0.5), -2.202193051050636px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  65% {
+    text-shadow: 2.8638780614874975px 0 1px rgba(0,30,255,0.5), -2.8638780614874975px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  70% {
+    text-shadow: 0.48874025155497314px 0 1px rgba(0,30,255,0.5), -0.48874025155497314px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  75% {
+    text-shadow: 1.8948491305757957px 0 1px rgba(0,30,255,0.5), -1.8948491305757957px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  80% {
+    text-shadow: 0.0833037308038857px 0 1px rgba(0,30,255,0.5), -0.0833037308038857px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  85% {
+    text-shadow: 0.09769827255241735px 0 1px rgba(0,30,255,0.5), -0.09769827255241735px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  90% {
+    text-shadow: 3.443339761481782px 0 1px rgba(0,30,255,0.5), -3.443339761481782px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  95% {
+    text-shadow: 2.1841838852799786px 0 1px rgba(0,30,255,0.5), -2.1841838852799786px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+  100% {
+    text-shadow: 2.6208764473832513px 0 1px rgba(0,30,255,0.5), -2.6208764473832513px 0 1px rgba(255,0,80,0.3), 0 0 3px;
+  }
+}
+.crt::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(18, 16, 16, 0.1);
+  opacity: 0;
+  z-index: 2;
+  pointer-events: none;
+  animation: flicker 0.15s infinite;
+}
+.crt::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 2;
+  background-size: 100% 2px, 3px 100%;
+  pointer-events: none;
+}
+.crt {
+  // animation: textShadow 1.6s infinite;
+  }
+
+  body {
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-top: 128px;
+  background: black;
+  color: #00ff00;
+  font-size: 32;
+  font-family: "PxPlus VGA SquarePx";
+  padding: 1px;
+  }
+
+  h1 {
+  font-size: 1em;
+  padding-top: 32px; padding-bottom: 32px;
+  line-height: 32px;
+  margin: 0;
+  padding: 1px;
+  }
+
+  h2 {
+  font-size: 32px;
+  padding-top: 32px; padding-bottom: 32px;
+  padding-left: 32px;
+  line-height: 32px;
+  margin: 0;
+  padding: 1px;
+  }
+
+  h3 {
+  font-size: 32px;
+  padding-top: 32px; padding-bottom: 32px;
+  padding-left: 32px;
+  line-height: 32px;
+  margin: 0;
+  padding: 1px;
+  }
+
+  h4 {
+  font-size: 32px;
+  padding-top: 32px; padding-bottom: 32px;
+  padding-left: 32px;
+  line-height: 32px;
+  margin: 0;
+  padding: 1px;
+  }
+
+  p { margin: 0;   padding: 1px;}
+
+  input:before { content: "[";
+  }
+  input:after { content: "]" }
+
+  input {
+  background: black;
+  color: #00ff00;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  font-size: 32px;
+  height: 32px;
+  margin: 0 0 32px 0;
+  padding: 1px 33px 1px 33px;
+  font-family: "PxPlus VGA SquarePx";
+  border-style: solid;
+  border: 0px 10px 0px 0px;
+  border-color: #00ff00;
+  border-width: 0 5px 5px 0;
+  }
+</style>
 <script src="resources/prototype.js" type="text/javascript"></script>
 <script src="resources/scriptaculous.js" type="text/javascript"></script>
 
@@ -101,40 +335,29 @@ function getRandomIdentifer() {
     $('govid').setValue(getRandomString(64,false));
     getidentifier();
 }
-
 </script>
-<style type="text/css">
-  body { background: black; color: green; font-family: sans-serif; font-size: 120%; margin: 0; padding: 0; width: 100% }
-  input { background: black; color: green;  border: 1px solid green; font-family: sans-serif; font-size: 120%; vertical-align: absmiddle }
-  input:focus { border: 1px solid #0f0; }
-  p { width: 600px; margin-left: auto; margin-right: auto; margin-top: 1em; margin-bottom: 1em;}
-  a:visited, a:hover, a:link { color: #0f0; text-decoration: none; }
-  a:visited { color: #0a0; }
-  a:before { content: '['; }
-  a:after { content: ']'; }
-</style>
-<body onload="$('govid').focus()">
- <img src="resources/banner.png" style="display: block; margin-left: auto; margin-right: auto">
-<p>
-Enter your full legal name, S.I.N., or military serial number in order to recieve your new Dataentrails Information Services operative handle.
-</p>
-<p>
-  GOVID <input type="text" id="govid" onkeydown="if (event.keyCode == 13) $('send').click();"><input id="send" type="button" value="send" onclick="getidentifier();"><input id="random" type="button" value="random" onclick="getRandomIdentifer();">
-</p>
-<p id="res" style="display: none">
-  DEHNDL<br>
-  <span id="output" style="font-size: 150%; color: #0f0; "></span>
-</p>
-<p id="congrats" style="display: none">
-Congratulations for choosing Dataentrails Information Services. We look forward to a long and productive relationship with you as a new operative. Contact your controller for next steps and to configure your CashCow payment gateway.
-</p>
-<p id="urlpara" style="display: none">
-<a id="recoveryurl" href="">URL TO THIS</a>
-</p>
+</head>
+<body class="crt">
+  <img src="hlogo-pixel.png" style="float:right; width:256px; margin-left: 16px; margin-right: 16px; padding: 0; ">
+  <h1>Operative Name Selector</h1>
+  <p style="width: auto;">Please enter your S.I.N., serial number or a random value to obtain your operative identifier.</p>
+  <p>&nbsp;</p>
+  <p>INPUT: <input type="text" id="govid" onkeydown="if (event.keyCode == 13) $('send').click();" style="width: 507"><input id="send" type="button" value="send" onclick="getidentifier();"><input id="random" type="button" value="random" onclick="getRandomIdentifer();"></p>
+  <p>&nbsp;</p>
+  <p id="res" style="display: none">
+    Selected Handle: <br>
+    <span id="output"></span>
+  </p>
+  <p id="congrats" style="display: none">
+    Congratulations for choosing a new operative identifier. Please contact your handle for further instructions.
+  </p>
+  <p id="urlpara" style="display: none">
+    <a id="recoveryurl" href="">URL TO THIS</a>
+  </p>
 
-<script type="text/javascript">
-var potentialgovid = document.URL.toQueryParams().govid;
-if (potentialgovid) {
+  <script type="text/javascript">
+    var potentialgovid = document.URL.toQueryParams().govid;
+    if (potentialgovid) {
     $('govid').setValue(potentialgovid);
     getidentifier();
 }
